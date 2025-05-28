@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editCentre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Centre" />
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description (ex: Lundi 10/06 - 14:00 - Java - Salle 12)" />
+
+    <Button
+        android:id="@+id/btnAjouter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter" />
+</LinearLayout>

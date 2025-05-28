@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editTextReclamation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Écrivez votre réclamation ici..."
+        android:minHeight="100dp"
+        android:gravity="top|start"
+        android:inputType="textMultiLine" />
+</LinearLayout>
